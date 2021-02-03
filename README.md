@@ -22,3 +22,23 @@ Genome analysis is the identification of genomic features such as gene expressio
 **You may use any programming language you feel most comfortable. We recommend Python because it is the easiest to implement. You're allowed to use any library you want to implement this**, just document which ones you used in this README file. Try to complete this as soon as possible.
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Sources:
+
+- Circular Visualization in Python with Piled Ranges. Retrieved from https://stackoverflow.com/questions/62706502/circular-visualization-in-python-with-piled-ranges.
+
+- Dealing with GenBank files in Biopython. Retrieved from https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/python/genbank.
+
+Libraries I used:
+- Matplotlib
+- NumPy
+- BioPython
+
+Program Notes: 
+I used Matplotlib, a Python library, to construct the circular genome map along with NumPy, another Python library. I also utilized BioPython to extract data from the genbank file 
+specifically the SeqIO. This module has the functionality that I need to handle the aforesaid file. 
+
+NOTE: To output the circular genome map as a png format, put a path where you want the image to show up on code line 125 of the code. Otherwise, the program will just simply displays the map (but not saving it as png).
+
