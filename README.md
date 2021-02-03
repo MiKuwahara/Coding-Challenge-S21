@@ -40,5 +40,6 @@ Program Notes:
 I used Matplotlib, a Python library, to construct the circular genome map along with NumPy, another Python library. I also utilized BioPython to extract data from the genbank file 
 specifically the SeqIO. This module has the functionality that I need to handle the aforesaid file. 
 
-NOTE: To output the circular genome map as a png format, put a path where you want the image to show up on code line 125 of the code. Otherwise, the program will just simply displays the map (but not saving it as png).
+NOTE: To output the circular genome map as a png format, put a path where you want the image to show up on code line 125 of the code. Otherwise, the program will just simply displays the map (but not saving it as png). 
+This is something I have not figured out a way to automatically display the map as png without typing its destination path.
 
